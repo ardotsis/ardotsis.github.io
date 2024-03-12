@@ -1,0 +1,23 @@
+a:link {
+  color: #ff7fb4;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: pink;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: rgb(255, 161, 177);
+  background-color: transparent;
+  text-decoration: underline;
+}
