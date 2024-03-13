@@ -1,15 +1,19 @@
-window.onload = function() {
-    var referrer = document.referrer;
-    
-    if (referrer === "https://t.co/") {
-        window.location.href = "index.html";
-    } else {
-        displayNotFoundPage();
-    }
-};
-
-function displayNotFoundPage() {
-    var notFoundContent = "<h1>404 Not Found</h1><p>ページが見つかりません。</p>";
-    
-    document.body.innerHTML = notFoundContent;
+function getReferrer() {
+  console.log(document.referrer);
+  return document.referrer;
 }
+
+function checkReferrerAndRedirect() {
+  var referrer = getReferrer();
+  var allowedReferrer = "https://t.co/";
+
+  if (referrer === allowedReferrer) {
+    window.location.href = "index.html";
+  } else {
+    window.location.href = "about:blank";
+  }
+}
+
+document.addEventListener("DOMContentLoaded", function () {
+  checkReferrerAndRedirect();
+});
