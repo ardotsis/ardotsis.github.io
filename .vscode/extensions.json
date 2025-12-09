@@ -1,0 +1,11 @@
+{
+    "recommendations": [
+        "formulahendry.auto-rename-tag",
+        "stylelint.vscode-stylelint",
+        "oderwat.indent-rainbow",
+        "pranaygp.vscode-css-peek",
+        "ecmel.vscode-html-css",
+        "celianriboulet.webvalidator",
+        "ritwickdey.liveserver"
+    ]
+}

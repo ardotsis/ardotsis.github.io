@@ -1,0 +1,15 @@
+User-agent: archive.org_bot
+Disallow: /
+User-agent: heritrix
+Disallow: /
+User-agent: ia_archiver
+Disallow: /
+User-agent: ia_archiver-web.archive.org
+Disallow: /
+User-agent: Internet Archive
+Disallow: /
+User-agent: special_archiver
+Disallow: /
+
+User-Agent:Megalodon
+Disallow:/
